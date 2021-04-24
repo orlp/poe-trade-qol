@@ -104,7 +104,7 @@ div[data-id*="whispering-essence"], div[data-id*="muttering-essence"], div[data-
 
     let prependFuzzyToTarget = function(e) {
         if (e.target.classList.contains("multiselect__input")) {
-            if (!e.target.value.startsWith("~")) {
+            if (e.target.value.length > 0 && !e.target.value.startsWith("~")) {
                 e.target.value = "~" + e.target.value;
             }
         }
