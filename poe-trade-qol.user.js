@@ -77,6 +77,7 @@ div[data-id*="whispering-essence"], div[data-id*="muttering-essence"], div[data-
 
 .exchange-filter-item.active {
     border: 2px dashed #0bb96b !important;
+    border-radius: 2px;
     padding: 2px !important;
 }
 `);
