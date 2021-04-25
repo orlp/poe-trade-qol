@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  Quality of life for PoE's trade site.
 // @author       orlp
-// @match        *://www.pathofexile.com/trade/*
+// @match        *://www.pathofexile.com/trade*
 // @grant        GM_addStyle
 // @require      http://code.jquery.com/jquery-3.5.1.min.js
 // ==/UserScript==
